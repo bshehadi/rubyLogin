@@ -30,9 +30,9 @@ export default class Registration extends Component {
           this.props.handleSuccessfulAuth(response.data);
         }
       })
-      .catch(err => {
-        console.log("err:", err);
-      })
+.catch(err => {
+console.log("err:", err);
+})
   };
   handleChange = e => {
     this.setState({
